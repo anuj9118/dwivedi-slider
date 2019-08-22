@@ -1,0 +1,64 @@
+/*
+if you want to use this code do  not delete the link of footer
+*/
+
+.body {
+    font-family: 'Lobster', cursive;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+}
+
+a {
+    color: orange;
+}
+
+.row {
+    min-height: 74vh;
+    background: url(slider.png) repeat-x center center fixed;
+    animation: slider 20000s infinite linear;
+    -webkit-animation: slider 20000s infinite linear;
+    animation-delay: 0s;
+    position: relative;
+    transition: .2s;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    color: aliceblue;
+    padding-top: 10rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+@keyframes slider {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: 90000%;
+    }
+}
+
+@-webkit-keyframes slider {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: 90000%;
+    }
+}
+
+.footer,
+.header {
+    background: fixed;
+    min-height: auto;
+    background: white;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
